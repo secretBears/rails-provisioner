@@ -1,0 +1,9 @@
+{
+  "docker": {
+  },
+  "run_list": [
+    "recipe[git]",
+    "recipe[docker]",
+    "recipe[install_docker_container]"
+  ]
+}
