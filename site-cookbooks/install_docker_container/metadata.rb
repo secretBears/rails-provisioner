@@ -1,7 +1,6 @@
 name             'install_docker_container'
-maintainer       'YOUR_COMPANY_NAME'
-maintainer_email 'YOUR_EMAIL'
+maintainer       'Thomas Mayrhofer'
+maintainer_email 'thomas@mayhrofer.at'
 license          'All rights reserved'
 description      'Installs/Configures install_docker_container'
-long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.1.0'

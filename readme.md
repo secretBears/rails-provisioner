@@ -1,3 +1,17 @@
-# Add your ssh key to the vagrant box
+# Get UP and Running
 
-[[ -z $(ssh-add -L | grep $key_file) ]] && ssh-add $key_file
+
+## Install Dependencies
+```
+bundle install
+```
+
+## Install Cookbooks
+```
+librarian-chef install
+```
+
+## Start Vagrant
+```
+vagrant up
+```
